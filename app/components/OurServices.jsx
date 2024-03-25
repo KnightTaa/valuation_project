@@ -3,7 +3,7 @@ import React from "react";
 const OurServices = () => {
   return (
     <section className="mx-auto py-5 px-4">
-      <h2 className="text-center">What we offer</h2>
+      <h2 className="text-center mb-6 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">What we offer</h2>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-2">
         <div className="group relative block bg-black">
           <img

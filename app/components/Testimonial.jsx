@@ -6,7 +6,7 @@ const Testimonial = () => {
       <div className="mx-auto max-w-screen-2xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="md:flex md:items-end md:justify-between">
           <div className="max-w-xl">
-            <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+            <h2 className="mb-6 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
               Read trusted reviews from our clients
             </h2>
 
@@ -70,7 +70,7 @@ const Testimonial = () => {
               </div>
 
               <div className="mt-4">
-                <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
+                <p className="text-2xl font-bold text-black-600 sm:text-3xl">
                   Stayin' Alive
                 </p>
 
@@ -138,7 +138,7 @@ const Testimonial = () => {
               </div>
 
               <div className="mt-4">
-                <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
+                <p className="text-2xl font-bold text-black-600 sm:text-3xl">
                   Stayin' Alive
                 </p>
 
@@ -206,7 +206,7 @@ const Testimonial = () => {
               </div>
 
               <div className="mt-4">
-                <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
+                <p className="text-2xl font-bold text-black-600 sm:text-3xl">
                   Stayin' Alive
                 </p>
 
