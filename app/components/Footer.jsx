@@ -1,4 +1,4 @@
-import Link from "next/link";
+'use client'
 import React from "react";
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 import Wrapper from "./Wrapper";
@@ -37,15 +37,6 @@ const Footer = () => {
                 get help
               </div>
               <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                Order Status
-              </div>
-              <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                Delivery
-              </div>
-              <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                Returns
-              </div>
-              <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
                 Payment Options
               </div>
               <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
@@ -57,7 +48,7 @@ const Footer = () => {
             {/* MENU START */}
             <div className="flex flex-col gap-3">
               <div className="font-oswald font-medium uppercase text-sm">
-                About nike
+                About
               </div>
               <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
                 News
@@ -81,26 +72,26 @@ const Footer = () => {
         {/* RIGHT START */}
         <div className="flex gap-4 justify-center md:justify-start">
           <div
-            // onClick={() => window.open("https://facebook.com", "_blank")}
+            onClick={() => window.open("https://facebook.com", "_blank")}
             className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer"
           >
             <FaFacebookF size={20} />
           </div>
           <div
-            // onClick={() => window.open("https://twitter.com", "_blank")}
+            onClick={() => window.open("https://twitter.com", "_blank")}
             className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer"
           >
             <FaTwitter size={20} />
           </div>
           <div
             className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer"
-            // onClick={() => window.open("https://youtube.com", "_blank")}
+            onClick={() => window.open("https://youtube.com", "_blank")}
           >
             <FaYoutube size={20} />
           </div>
           <div
             className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer"
-            // onClick={() => window.open("https://instagram.com", "_blank")}
+            onClick={() => window.open("https://instagram.com", "_blank")}
           >
             <FaInstagram size={20} />
           </div>
@@ -110,7 +101,7 @@ const Footer = () => {
       <Wrapper className="flex justify-between mt-10 flex-col md:flex-row gap-[10px] md:gap-0">
         {/* LEFT START */}
         <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer text-center md:text-left">
-          © 2024 Piumal Electronics. All Rights Reserved
+          © 2024 Hasitha Tharaka. All Rights Reserved
         </div>
         {/* LEFT END */}
 
