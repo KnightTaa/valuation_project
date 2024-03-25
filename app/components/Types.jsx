@@ -47,7 +47,7 @@ const Types = () => {
         </div>
         <div className="flex flex-col items-center bg-accent/5 gap-2 p-4 rounded-lg group cursor-pointer hover:bg-accent/20">
           <Image
-            src={"/link.png"}
+            src={"/link2.png"}
             width={60}
             height={60}
             alt="category"
