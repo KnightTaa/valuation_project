@@ -3,7 +3,7 @@ import React from "react";
 const Types = () => {
   return (
     <div className="p-10 mt-5">
-      <h2 className="text-center mb-6 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">Types of Valuations</h2>
+      <h3 className="text-center mb-6 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">Types of Valuations</h3>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div className="flex flex-col items-center bg-accent/5 gap-2 p-4 rounded-lg group cursor-pointer hover:bg-accent/20">
           <Image

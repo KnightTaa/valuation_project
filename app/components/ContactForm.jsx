@@ -134,7 +134,7 @@ const ContactForm = () => {
                   <div>
                     <button
                       type="submit"
-                      className="w-full rounded border border-primary bg-primary p-3 text-white transition hover:bg-opacity-90"
+                      className="w-full btn btn-primary"
                     >
                       Send Message
                     </button>
